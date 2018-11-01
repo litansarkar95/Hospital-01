@@ -1,0 +1,356 @@
+body{
+	background-color: 	#eeeeee;
+}
+
+.top-header{
+	border-top: 3px solid red;
+	background-color: #e1e1d0;
+	list-style: none;
+}
+.top-header-left ul li{
+	padding-top: 5px;
+	list-style: none;
+	
+}
+.top-header-right{
+	float: right;
+	
+}
+.top-header-right ul li{
+	float: left;
+	list-style: none;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+.top-header-left ul li, .top-header-right ul li>a{
+	color: #e8491d;
+	text-decoration: none;
+	
+}
+.header-logo img{
+	height: 120px;
+	width: 160px;
+}
+.header-logo h2{
+	color: #271adb;
+	font-weight: bold;
+	text-align: center;
+}
+/** search  **/
+.input-group ,.header-logo h2{
+	margin-top: 30px;
+}
+.input-group-btn .btn-group {
+    display: flex !important;
+}
+
+/**  navbar **/
+
+.navbar-default {
+	background-color: #44433e;
+	border: none;
+	background-image: none;
+	height: 67px;
+}
+.navbar {
+	border-radius: 0px;
+}
+
+.manu {
+	background:#35424a;
+	margin-bottom: 20px;
+}
+.navbar-brand {
+	color: #fff;
+}
+.navbar-brand:hover {
+	color: #fff;
+}
+.navbar-nav li:last-child > a {
+	border-right: medium none;
+}
+.navbar-nav li a {
+	color: #fff;
+	font-size: 18px;
+	border-right: 1px solid #fff;
+	border-top: 2px solid #35424a;
+}
+.navbar-nav li a:hover {
+	border-top: 2px solid red;
+	background-color: #076931;
+	color: #fff;
+}
+.navbar-toggle {
+	border: 1px solid #f4f3f3;
+}
+.navbar-toggle:hover {
+	background-color: #00A34C;
+}
+.navbar-collapse {
+	padding-left: 0px;
+}
+.dropdown-menu > li > a {
+	border-right: none;
+}
+.navbar-nav li:last-child > a {
+	border-right: medium none;
+}
+.navbar-toggle {
+	border: 1px solid #f4f3f3;
+}
+.navbar-toggle:hover {
+	background-color: #00A34C;
+}
+.dropdown:hover .dropdown-menu {
+	display: block;
+}
+.dropdown-menu > li > a {
+	clear: both;
+	color: #333;
+	display: block;
+	font-weight: 400;
+	line-height: 1.42857;
+	padding: 3px 20px;
+	white-space: nowrap;
+}
+.dropdown-menu {
+	background-color: #128543;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+.dropdown-menu > li > a {
+	color: #fff;
+}
+.dropdown-menu li a {
+	border-bottom: 1px solid #f4f3f3;
+}
+.dropdown-menu li:last-child > a {
+	border-bottom: medium none;
+}
+.container-fluid {
+	padding-left: 0px;
+}
+.nav > li > a:focus {
+	background-color: transparent;
+}
+
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+	background-color: transparent;
+	border-color: transparent;
+}
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+	background-image: none;
+	color: #fff;
+	background-color: #076931;
+}
+.nav > li > a:focus {
+	background-color: #000;
+	border: none;
+	outline: none;
+	color: #fff;
+}
+@media screen and (max-width: 767px) {
+	
+	.navbar-toggle .icon-bar {
+		border-radius: 1px;
+		border: 1px solid #CCC;
+		display: block;
+		height: 2px;
+		width: 22px;
+		background-color: #fff;
+	}
+	.navbar-collapse {
+		padding-left: 30px;
+	}
+	.navbar-nav li a {
+		border-right: none;
+	}
+	.dropdown-menu li a {
+		border-bottom: 1px solid #f4f3f3;
+	}
+	.dropdown-menu li a {
+		width: 300px;
+		clear: both;
+		color: #333;
+		display: block;
+		font-weight: 400;
+		line-height: 1.42857;
+		padding: 3px 20px;
+		white-space: nowrap;
+	}
+}
+
+/** slide **/
+
+#myCarousel{
+	padding:0px 30px;
+	margin-top: -18px;
+}
+#myCarousel img{
+	width: 100%;
+	max-height: 400px;
+}
+
+/** welcome-content **/
+
+.welcome-content h2{
+	
+	padding: 20px;
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: bold;
+	color: #8f8fa3;
+	font-size: 29px;
+	text-transform: uppercase;
+	border-bottom: 2px solid #44433e;
+	margin:0px 24px;
+}
+.welcome-content p{
+	padding:10px 20px;
+	text-align: justify;
+	font-size: 14px;
+}
+
+/** campus  **/
+.campus{
+	background-image: url("../img/1.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	
+}
+.campus h2{
+	font-size: 30px;
+	color: #076931;
+	text-transform: uppercase;
+	font-weight: initial;
+	border-bottom: 5px solid #e8491d;
+	padding: 10px;
+}
+.campus p{
+	padding-top: 10px;
+}
+.campus-chairman h3{
+	background-color: #556d7d;
+	padding: 15px;
+	font-weight: 100;
+	color: #fff;
+	text-transform: uppercase;
+	border-top-right-radius: 30px;
+}
+.campus-chairman img{
+	width: 240px;
+	height:200px;
+
+	
+}
+.campus-chairman p{
+padding-top: 10px;
+color: #e9faf0;
+background: #333;
+padding: 10px;
+line-height: 1.5em;
+}
+
+/**  photo gallery **/
+.gallery {
+	padding-bottom: 10px;
+}
+.gallery h3{
+	background-color: #333;
+	padding: 14px;
+	color: #e8491d;
+	text-transform: uppercase;
+	border-radius: 10px;
+}
+.gallery img{
+	width: 280px;
+	height: 240px;
+}
+	
+/** google-map **/
+.google-map h1{
+	color: #000;
+	text-transform: uppercase;
+	border-bottom:2px solid #e8491d;
+}
+.google-map{
+	background-image: url("../img/blur-close-up-figure-346696.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	
+}
+  
+/** footer **/
+.footer{
+	background-color: #333;
+	color: #fff;
+	margin: auto;
+}
+.footer h2{
+	border-bottom: 2px solid red;
+	padding: 10px;
+}
+.footer img{
+	width: 170px;
+	height: 140px;
+}
+.footer h3{
+	text-align: center;
+	padding: 10px;
+	color: rgb(0, 163, 100);
+	border-bottom: 1px solid #00A34C;
+	text-transform: capitalize;
+	font-style: italic;
+}
+.footer .footer-right ul li{
+
+list-style: none;
+font-size: 20px;
+padding: 10px;
+
+}
+.footer-right p a{
+	float: right;
+	color: #000;
+	text-decoration: none;
+}
+.footer .footer-right ul li a{
+	
+	font-size: 30px;
+	text-decoration: none;
+	color: #fff;
+
+}
+.fa-facebook-square{
+	
+	padding-right: 10px;
+	color: rgb(0, 163, 100);
+}
+.fa-youtube-square{
+	padding-right: 10px;
+	color:rgb(0, 163, 100);
+}
+.fa-google-plus-square{
+	padding-right: 10px;
+	color: rgb(0, 163, 100);	
+}
+.fa-twitter-square{
+	padding-right: 10px;
+	color: rgb(0, 163, 100);	
+}
+	/** small Device **/
+	
+/** header search **/
+@media screen and (min-width: 768px) {
+    #adv-search {
+        width: 500px;
+        margin: 0 auto;
+    }
+ 
+}
+
+/** photo gallery **/
